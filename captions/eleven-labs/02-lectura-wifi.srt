@@ -1,0 +1,35 @@
+1
+00:00:00,000 --> 00:00:04,840
+En la vista de Red Wi-Fi, podemos solicitar una lectura de la conexión actual y agregarle
+
+2
+00:00:04,840 --> 00:00:07,960
+una etiqueta opcional para reconocerla después.
+
+3
+00:00:07,960 --> 00:00:13,320
+HoneyPhone muestra la potencia recibida, la banda, la frecuencia, el canal y el estándar
+
+4
+00:00:13,320 --> 00:00:15,440
+que informa Android.
+
+5
+00:00:15,440 --> 00:00:19,760
+También presenta las velocidades de recepción y transmisión del enlace con el router,
+
+6
+00:00:19,760 --> 00:00:22,160
+además del estado de acceso a Internet.
+
+7
+00:00:22,160 --> 00:00:27,400
+La potencia se expresa en decibelios respecto a un milivatio, cuanto más cerca de cero,
+
+8
+00:00:27,400 --> 00:00:29,240
+mayor es la señal recibida.
+
+9
+00:00:29,240 --> 00:00:32,920
+Las velocidades del enlace no son una prueba de velocidad de Internet.

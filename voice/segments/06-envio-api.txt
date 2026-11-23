@@ -1,0 +1,1 @@
+Una revisión nueva se conserva primero en el teléfono; desde aquí decidimos si la enviamos a la API. Al confirmar, el registro queda marcado como enviado. Así controlamos qué lecturas de red compartimos.

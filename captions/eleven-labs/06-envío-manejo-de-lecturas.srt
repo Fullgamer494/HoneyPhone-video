@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,040
+Las lecturas manuales se guardan primero en el teléfono.
+
+2
+00:00:04,040 --> 00:00:08,640
+Desde el informe podemos enviarlas a la API o compartirlas como archivo.
+
+3
+00:00:08,640 --> 00:00:12,560
+En actividad, también podemos enviar los pendientes de la pestaña elegida
+
+4
+00:00:12,560 --> 00:00:15,880
+o eliminar del teléfono los que aún no se han enviado.
+
+5
+00:00:15,880 --> 00:00:19,120
+Los registros que ya llegaron al servidor se conservan allí.

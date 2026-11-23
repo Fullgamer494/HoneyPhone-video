@@ -1,0 +1,1 @@
+Las simulaciones permiten explorar la interfaz con escenarios de ejemplo. Podemos comparar un resultado normal, una discrepancia y una lectura incompleta, sin depender de que esas condiciones existan en la red real. HoneyPhone las guarda identificadas como ejemplos. Así sirven para practicar la lectura de resultados y entender los avisos antes de revisar una conexión de verdad.

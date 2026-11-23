@@ -3,5 +3,23 @@ dist
 .DS_Store
 .env
 
-# Ignore the output video from Git but not videos you import into src/.
+# Remotion renders and exported deliverables are generated artifacts.
+renders/
+exports/*.mp4
+
+# Local Python environments and legacy voice-generation models/audio.
+voice/.venv/
+voice/models/
+voice/audio/
+voice/previews/
+public/voice/audio/
+
+# Local agent skill installation artifacts.
+.agents/
+skills-lock.json
+
+# Local Whisper.cpp checkout (captions are checked in).
+/tools/whisper.cpp/
+
+# Legacy Remotion output directory.
 out

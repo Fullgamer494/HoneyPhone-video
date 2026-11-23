@@ -1,0 +1,31 @@
+1
+00:00:00,000 --> 00:00:04,700
+HoneyPhone incluye un señuelo web que se activa dentro de la red Wi-Fi actual.
+
+2
+00:00:04,700 --> 00:00:07,900
+Podemos elegir entre la apariencia de un portal de acceso,
+
+3
+00:00:07,900 --> 00:00:11,500
+una consola de administración o un sitio intervenido.
+
+4
+00:00:11,500 --> 00:00:16,400
+Al iniciar, el teléfono muestra una dirección local para abrir las páginas de prueba.
+
+5
+00:00:16,400 --> 00:00:21,300
+Una notificación permite consultar el estado del servicio y detenerlo.
+
+6
+00:00:21,300 --> 00:00:26,700
+La demostración usa una red autorizada y no introduce credenciales en los formularios.
+
+7
+00:00:26,700 --> 00:00:29,400
+El señuelo registra solicitudes técnicas.
+
+8
+00:00:29,400 --> 00:00:32,200
+No lee ni guarda el contenido que se envíe.

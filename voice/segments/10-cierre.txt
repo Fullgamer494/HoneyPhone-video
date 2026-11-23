@@ -1,0 +1,1 @@
+HoneyPhone reúne observación Wi-Fi, comprobaciones controladas y un señuelo local con métricas revisables. Desde el teléfono podemos explorar lo que pasa en la red y decidir qué datos compartir. HoneyPhone: observa la señal. Entiende lo que ocurre.

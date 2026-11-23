@@ -1,0 +1,25 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.440
+El recorrido genera solicitudes GET y HEAD para consultar páginas, POST para
+
+00:00:05.440 --> 00:00:11.840
+aprobar envíos, PUT y PATCH para actualizaciones, DELETE para eliminaciones y OPTIONS
+
+00:00:11.840 --> 00:00:14.720
+para consultar los métodos permitidos.
+
+00:00:14.720 --> 00:00:20.280
+Cada intento queda asociado con una ruta, una respuesta y una hora. En actividad, las
+
+00:00:20.280 --> 00:00:26.480
+métricas muestran la secuencia de solicitudes, comparan GET, POST y otros métodos y agrupan
+
+00:00:26.480 --> 00:00:32.520
+las respuestas HTTP por categoría. Los eventos se guardan primero en el teléfono
+
+00:00:32.520 --> 00:00:38.280
+y se intentan sincronizar automáticamente con la API. Si no hay conexión, se puede reintentar
+
+00:00:38.280 --> 00:00:39.480
+al actualizar el historial.

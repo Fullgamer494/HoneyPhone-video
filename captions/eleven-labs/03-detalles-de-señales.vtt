@@ -1,0 +1,28 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:04.300
+Al abrir el informe, cada indicador se puede consultar por separado.
+
+00:00:04.300 --> 00:00:07.960
+Uno muestra el tipo de protección Wi-Fi que Android informa.
+
+00:00:07.960 --> 00:00:12.120
+Otro señala si detectó una página de acceso, como la de un hotel.
+
+00:00:12.120 --> 00:00:15.080
+Cuando están configurados los destinos de prueba del proyecto,
+
+00:00:15.080 --> 00:00:18.360
+también se consulta la resolución de nombres DNS
+
+00:00:18.360 --> 00:00:21.640
+y la validez del certificado HTTPS.
+
+00:00:21.640 --> 00:00:26.280
+Algunas comprobaciones pueden quedar pendientes o sin datos.
+
+00:00:26.280 --> 00:00:29.240
+El resultado no es una puntuación de seguridad.
+
+00:00:29.240 --> 00:00:34.280
+Cada indicador aporta contexto, pero ninguno confirma por sí solo una intrusión.

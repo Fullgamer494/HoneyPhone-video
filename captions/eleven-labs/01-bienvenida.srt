@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:05,840
+Una red Wi-Fi puede parecer estable, y aún así dejar preguntas sin responder.
+
+2
+00:00:05,840 --> 00:00:09,040
+¿Qué información nos ayuda a entender mejor la conexión?
+
+3
+00:00:09,040 --> 00:00:12,680
+HoneyPhone reúne lecturas de red, comprobaciones controladas,
+
+4
+00:00:12,680 --> 00:00:16,000
+ejemplos para practicar y un señuelo web local.
+
+5
+00:00:16,000 --> 00:00:20,040
+En este recorrido veremos cómo observar cada parte desde el teléfono
+
+6
+00:00:20,040 --> 00:00:22,040
+y cómo consultar los resultados.

@@ -1,0 +1,227 @@
+1
+00:00:00,000 --> 00:00:05,040
+Una red Wi-Fi puede parecer segura y estable, aunque sus señales cuenten otra historia.
+
+2
+00:00:05,040 --> 00:00:09,720
+HoneyPhone ayuda a observar lo que ocurre alrededor, la conexión, las redes cercanas y
+
+3
+00:00:09,720 --> 00:00:12,200
+la actividad que llega a un señuelo local.
+
+4
+00:00:12,200 --> 00:00:16,760
+En este recorrido veremos cómo reúne esas señales en una sola herramienta, desde el
+
+5
+00:00:16,760 --> 00:00:20,160
+teléfono y con resultados fáciles de interpretar.
+
+6
+00:00:20,160 --> 00:00:24,080
+La vista principal reúne los datos esenciales de la conexión actual.
+
+7
+00:00:24,080 --> 00:00:29,240
+Aquí podemos revisar el nombre de la red, la banda, el canal, la frecuencia y la intensidad
+
+8
+00:00:29,240 --> 00:00:31,220
+expresada en dBm.
+
+9
+00:00:31,220 --> 00:00:35,720
+También aparecen indicadores de recepción y transmisión, junto con el estado de acceso
+
+10
+00:00:35,720 --> 00:00:36,720
+a Internet.
+
+11
+00:00:36,720 --> 00:00:42,480
+Una señal fuerte describe la conexión inalámbrica; por sí sola no garantiza que Internet esté
+
+12
+00:00:42,480 --> 00:00:43,480
+disponible.
+
+13
+00:00:43,480 --> 00:00:48,720
+Por eso, HoneyPhone separa las mediciones de radio de las comprobaciones de conectividad.
+
+14
+00:00:48,720 --> 00:00:52,640
+Al abrir una señal encontramos una evaluación más completa.
+
+15
+00:00:52,640 --> 00:00:57,200
+La aplicación combina la información visible de la red con comprobaciones controladas
+
+16
+00:00:57,200 --> 00:01:00,120
+de acceso, DNS y HTTPS.
+
+17
+00:01:00,120 --> 00:01:02,960
+Cada resultado aporta una pieza distinta:
+
+18
+00:01:02,960 --> 00:01:08,720
+Cómo se presenta la red, si se resuelven nombres y si una conexión cifrada puede establecerse.
+
+19
+00:01:08,720 --> 00:01:13,080
+Estas verificaciones ayudan a contextualizar el estado observado, sin convertir una
+
+20
+00:01:13,080 --> 00:01:16,400
+medición aislada en un diagnóstico absoluto.
+
+21
+00:01:16,400 --> 00:01:20,760
+Las simulaciones permiten explorar la interfaz con escenarios de ejemplo.
+
+22
+00:01:20,760 --> 00:01:25,600
+Podemos comparar un resultado normal, una discrepancia y una lectura incompleta, sin depender
+
+23
+00:01:25,600 --> 00:01:28,240
+de que esas condiciones existan en la red real.
+
+24
+00:01:28,240 --> 00:01:31,480
+HoneyPhone las guarda identificadas como ejemplos.
+
+25
+00:01:31,480 --> 00:01:36,240
+Así sirven para practicar la lectura de resultados y entender los avisos antes de revisar
+
+26
+00:01:36,240 --> 00:01:38,120
+una conexión de verdad.
+
+27
+00:01:38,120 --> 00:01:43,160
+En Actividad se consulta el historial de revisiones y su estado de sincronización.
+
+28
+00:01:43,160 --> 00:01:48,440
+Los filtros ayudan a encontrar registros por fecha y la vista reúne la información local
+
+29
+00:01:48,440 --> 00:01:50,160
+con la disponible en el servidor.
+
+30
+00:01:50,160 --> 00:01:55,560
+Una revisión nueva se conserva primero en el teléfono; desde aquí decidimos si la enviamos
+
+31
+00:01:55,560 --> 00:01:56,600
+a la API.
+
+32
+00:01:56,600 --> 00:02:00,080
+Al confirmar, el registro queda marcado como enviado.
+
+33
+00:02:00,080 --> 00:02:03,280
+Así controlamos qué lecturas de red compartimos.
+
+34
+00:02:03,280 --> 00:02:08,080
+HoneyPhone también puede levantar un señuelo HTTP dentro del dispositivo.
+
+35
+00:02:08,080 --> 00:02:12,760
+Sus páginas parecen servicios conocidos y están diseñadas para observar solicitudes
+
+36
+00:02:12,760 --> 00:02:15,760
+de prueba, no para recopilar contraseñas.
+
+37
+00:02:15,760 --> 00:02:21,280
+En este recorrido, se consultan rutas usando métodos como GET, HHEAD, POST, PUT, PATCH,
+
+38
+00:02:21,280 --> 00:02:22,720
+DELETE y OPTIONS.
+
+39
+00:02:22,720 --> 00:02:27,080
+El servidor responde según la ruta y registra datos técnicos de cada petición, como
+
+40
+00:02:27,080 --> 00:02:29,800
+método, recurso, código y hora.
+
+41
+00:02:29,800 --> 00:02:33,160
+El cuerpo de las solicitudes POST se deja sin leer.
+
+42
+00:02:33,160 --> 00:02:38,280
+La pestaña de actividad del señuelo resume las solicitudes y las sesiones observadas.
+
+43
+00:02:38,280 --> 00:02:44,000
+Las gráficas permiten comparar métodos HTTP, clases de respuesta y evolución de eventos.
+
+44
+00:02:44,000 --> 00:02:48,660
+En este ejemplo, aparecen peticiones GET y POST, junto con otros métodos y respuestas
+
+45
+00:02:48,660 --> 00:02:50,200
+de distintas familias.
+
+46
+00:02:50,200 --> 00:02:55,360
+La sesión puede permanecer guardada localmente y sincronizar sus eventos con la API cuando
+
+47
+00:02:55,360 --> 00:02:56,760
+hay conexión.
+
+48
+00:02:56,760 --> 00:03:01,760
+El historial ayuda a revisar qué ocurrió sin confundirlo con una lectura Wi-Fi.
+
+49
+00:03:01,760 --> 00:03:06,240
+En la vista de cuenta, se puede comprobar si la API está disponible, qué dispositivo
+
+50
+00:03:06,240 --> 00:03:10,080
+está conectado y si hay otras instalaciones registradas.
+
+51
+00:03:10,080 --> 00:03:15,420
+Las tareas periódicas mantienen actualizados los datos pendientes cuando vuelve la conectividad.
+
+52
+00:03:15,420 --> 00:03:19,780
+Las señales Wi-Fi se envían desde Actividad cuando el usuario lo decide.
+
+53
+00:03:19,780 --> 00:03:24,640
+Los eventos del señuelo usan sincronización automática con reintento.
+
+54
+00:03:24,640 --> 00:03:29,760
+Cada flujo conserva su propio estado para que resulte claro qué llegó al servidor.
+
+55
+00:03:29,760 --> 00:03:34,640
+HoneyPhone reúne observación Wi-Fi, comprobaciones controladas y un señuelo local con métricas
+
+56
+00:03:34,640 --> 00:03:40,640
+revisables. Desde el teléfono podemos explorar lo que pasa en la red y decidir qué datos compartir.
+
+57
+00:03:40,640 --> 00:03:43,640
+HoneyPhone observa la señal, entiende lo que ocurre.

@@ -1,0 +1,1 @@
+En Actividad se consulta el historial de revisiones y su estado de sincronización. Los filtros ayudan a encontrar registros por fecha y la vista reúne la información local con la disponible en el servidor.

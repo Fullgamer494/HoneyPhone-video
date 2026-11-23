@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:03,620
+Los ejemplos permiten practicar sin escanear una red.
+
+2
+00:00:03,620 --> 00:00:07,860
+HoneyPhone presenta escenarios simulados con resultados sin diferencias,
+
+3
+00:00:07,860 --> 00:00:11,580
+con señales que requieren atención y con información incompleta.
+
+4
+00:00:11,580 --> 00:00:17,120
+Cada uno conserva la etiqueta de simulación para distinguirlo de una lectura tomada en este teléfono.
+
+5
+00:00:17,120 --> 00:00:20,300
+Podemos abrirlo y revisar sus indicadores con calma.
+
+6
+00:00:20,300 --> 00:00:25,620
+Sirven para familiarizarnos con los informes y entender cómo se presentan distintos resultados.

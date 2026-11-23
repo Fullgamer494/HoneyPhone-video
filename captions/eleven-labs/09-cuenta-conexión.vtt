@@ -1,0 +1,13 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:07.640
+La aplicación ofrece registro y acceso con correo o Google, además de verificación de correo y recuperación de cuenta.
+
+00:00:07.640 --> 00:00:15.240
+En cuenta, podemos revisar la conexión con la API, consultar los dispositivos registrados y cambiar el nombre de este teléfono.
+
+00:00:15.240 --> 00:00:19.080
+También podemos activar o pausar los escaneos automáticos.
+
+00:00:19.080 --> 00:00:28.480
+Si están activos, HoneyPhone intenta tomar lecturas aproximadamente cada 15 minutos cuando hay Wi-Fi e Internet y sincroniza los registros pendientes.

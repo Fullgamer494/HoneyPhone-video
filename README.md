@@ -1,54 +1,47 @@
-# Remotion video
+# HoneyPhone — video demo
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-dark.apng">
-      <img alt="Animated Remotion Logo" src="https://github.com/remotion-dev/logo/raw/main/animated-logo-banner-light.gif">
-    </picture>
-  </a>
-</p>
+Proyecto Remotion para montar el video de demostración de HoneyPhone. Incluye las capturas originales, una toma inicial segura, los recursos de marca, la narración ElevenLabs, la música y los subtítulos sincronizados.
 
-Welcome to your Remotion project!
+## Contenido
 
-## Commands
+- `src/HoneyPhoneDemo.tsx`: composición final y preview de estilo.
+- `src/captions.ts` y `captions/eleven-labs/`: captions de la narración elegida.
+- `public/media/raw/`: capturas originales de la aplicación.
+- `public/media/edited/00-bienvenida-segura.mp4`: apertura sin formularios de acceso.
+- `voice/eleven-labs/`: originales de audio ElevenLabs.
+- `public/audio/voice/eleven-labs/`: copias usadas por Remotion.
+- `public/audio/sfx/`, `public/audio/ambiente-honeyphone.wav`: efectos y cama ambiental.
+- `public/brand/` y `references/`: logotipo, tipografías y referencias visuales.
+- `docs/`: guion, plan de montaje e identidad visual.
 
-**Install Dependencies**
+## Requisitos
 
-```console
-npm i --loglevel=error
-```
+- Node.js 20.19 o posterior.
+- FFmpeg y ffprobe para transcribir o inspeccionar medios.
 
-**Start Preview**
+Instala las dependencias y abre Remotion Studio:
 
-```console
+```bash
+npm install
 npm run dev
 ```
 
-**Render video**
+Las composiciones son `HoneyPhoneDemo` (290 segundos, 1920×1080, 30 fps) y `HoneyPhonePreview` (27.27 segundos). Para renderizar la principal:
 
-```console
-npx remotion render
+```bash
+npx remotion render HoneyPhoneDemo exports/honeyphone-demo-final.mp4
 ```
 
-**Upgrade Remotion**
+Los previews y renders finales se guardan localmente en `renders/` y `exports/`; Git los ignora para evitar subir archivos de video grandes.
 
-```console
-npx remotion upgrade
-```
+## Captions
 
-## Docs
+Los SRT/VTT de `captions/eleven-labs/` corresponden a los audios de `voice/eleven-labs/`. Para regenerarlos se necesita instalar Whisper.cpp y el modelo multilingüe base localmente; el checkout de Whisper.cpp y sus binarios no se incluyen en este repositorio. El montaje puede renderizarse con los captions ya incluidos.
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+## Documentación
 
-## Help
-
-We provide help on our [Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Note that for some entities a company license is needed. [Read the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+- [Guion](docs/guion-voz-ia.md)
+- [Plan de montaje](docs/plan-montaje.md)
+- [Identidad visual](docs/identidad-visual.md)
+- [Recursos de movimiento](docs/recursos-movimiento-y-agentes.md)
+- [Voz ElevenLabs](docs/voz-eleven-labs.md)
